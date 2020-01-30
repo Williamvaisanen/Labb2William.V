@@ -16,6 +16,8 @@
 		D05094AA23E370C900A4E837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05094A923E370C900A4E837 /* main.m */; };
 		D05094B423E370C900A4E837 /* Labb2William_VTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05094B323E370C900A4E837 /* Labb2William_VTests.m */; };
 		D05094BF23E370C900A4E837 /* Labb2William_VUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05094BE23E370C900A4E837 /* Labb2William_VUITests.m */; };
+		D05094CE23E3711B00A4E837 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05094CD23E3711B00A4E837 /* TableViewController.m */; };
+		D05094D423E3719800A4E837 /* TodoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D05094D323E3719800A4E837 /* TodoData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D050949423E370C600A4E837 /* Labb2William.V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Labb2William.V.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D050949423E370C600A4E837 /* Labb2 G William.V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Labb2 G William.V.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D050949723E370C600A4E837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D050949823E370C600A4E837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D050949A23E370C600A4E837 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +56,10 @@
 		D05094BA23E370C900A4E837 /* Labb2William.VUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Labb2William.VUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05094BE23E370C900A4E837 /* Labb2William_VUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labb2William_VUITests.m; sourceTree = "<group>"; };
 		D05094C023E370C900A4E837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05094CC23E3711B00A4E837 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D05094CD23E3711B00A4E837 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D05094D223E3719800A4E837 /* TodoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoData.h; sourceTree = "<group>"; };
+		D05094D323E3719800A4E837 /* TodoData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +100,7 @@
 		D050949523E370C600A4E837 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D050949423E370C600A4E837 /* Labb2William.V.app */,
+				D050949423E370C600A4E837 /* Labb2 G William.V.app */,
 				D05094AF23E370C900A4E837 /* Labb2William.VTests.xctest */,
 				D05094BA23E370C900A4E837 /* Labb2William.VUITests.xctest */,
 			);
@@ -115,6 +121,10 @@
 				D05094A523E370C900A4E837 /* LaunchScreen.storyboard */,
 				D05094A823E370C900A4E837 /* Info.plist */,
 				D05094A923E370C900A4E837 /* main.m */,
+				D05094CC23E3711B00A4E837 /* TableViewController.h */,
+				D05094CD23E3711B00A4E837 /* TableViewController.m */,
+				D05094D223E3719800A4E837 /* TodoData.h */,
+				D05094D323E3719800A4E837 /* TodoData.m */,
 			);
 			path = Labb2William.V;
 			sourceTree = "<group>";
@@ -154,7 +164,7 @@
 			);
 			name = Labb2William.V;
 			productName = Labb2William.V;
-			productReference = D050949423E370C600A4E837 /* Labb2William.V.app */;
+			productReference = D050949423E370C600A4E837 /* Labb2 G William.V.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D05094AE23E370C900A4E837 /* Labb2William.VTests */ = {
@@ -270,6 +280,8 @@
 				D050949F23E370C600A4E837 /* ViewController.m in Sources */,
 				D050949923E370C600A4E837 /* AppDelegate.m in Sources */,
 				D05094AA23E370C900A4E837 /* main.m in Sources */,
+				D05094D423E3719800A4E837 /* TodoData.m in Sources */,
+				D05094CE23E3711B00A4E837 /* TableViewController.m in Sources */,
 				D050949C23E370C600A4E837 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ttghjkl.Labb2William-V";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Labb2 G William.V";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -462,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ttghjkl.Labb2William-V";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Labb2 G William.V";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
